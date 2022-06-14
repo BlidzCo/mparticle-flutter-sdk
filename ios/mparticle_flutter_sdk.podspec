@@ -12,10 +12,10 @@ mParticle Flutter Wrapper
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :path => '.' }
+  s.source           = { :path => 'https://github.com/BlidzCo/mparticle-apple-integration-branchmetrics.git' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'mParticle-Apple-SDK/mParticle-BranchMetrics'
+  s.dependency 'mParticle-Apple-SDK/mParticle-BranchMetrics', '~> 8.0.6'
   s.platform = :ios, '8.0'
 
   # Flutter.framework does not contain a i386 slice.
